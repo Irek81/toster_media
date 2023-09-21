@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Gotham-Pro';
+    src: url(../toster_media/fonts/Gotham_Pro/);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 8px;
+}
+
+body {
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 363px;
+    margin: auto;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 10px 14px;
+    background-color: #F19D2F;
+}
+
+.header__text {
+    color: #2C2B31;
+    text-align: center;
+    font-family: Gotham Pro;
+    font-size: 12.694px;
+    font-weight: 400;
+}
+
+.logo {
+    background: #FFD1AC;
+    padding: 19px 0;
+}
+
+.logo__img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo__description {
+    text-align: center;
+    color: #2C2B31;
+    font-family: Gotham Pro;
+    font-size: 13.469px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.main_offer {
+    background-image: url(img/bg-img.png);
+    padding: 209px 0 8px;
+}
+
+.limit_offer {
+    background-color: #F19D2F;
+    border-radius: 5.677px;
+    padding: 9px 7px;
+}
+
+.price {
+    background-color: #37D997;
+    background-repeat: no-repeat;
+    border-radius: 5.677px;
+    padding: 6px 7px;
+}
+
+.limit_offer, .price {
+    color: #fff;
+}
+
+.limit-text {
+    display: block;
+    font-size: 10.599px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.timer {
+    display: block;
+    margin: 10px auto 0;
+    text-align: center;
+    font-size: 21.254px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.price_old {
+    display: block;
+    text-align: center;
+    font-size: 18.077px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-decoration-color: #E27500;
+}
+
+.price_current {
+    font-size: 22.301px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.product_description {
+    padding: 11px 16px 41px;
+    background-color: #F0F0F0;
+}
+
+.grade {
+    align-items: center;
+}
+
+.excellente {
+    color: #2C2B31;
+    font-size: 12.067px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.best-selling {
+    color: #37D997;
+    font-size: 12.067px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.product-title {
+    color: #2C2B31;
+    font-size: 19.168px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.big-img-content {
+    margin-top: 20px;
+}
+
+.big-img {
+    display: none;
+}
+
+.small-img-content {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.small-img-active {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.order-text {
+    margin-top: 20px;
+}
+
+.order-text p {
+    color: #000;
+    font-size: 15.29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.bold-text {
+    color: #000;
+    font-size: 15.29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.grade-count {
+    margin-left: 10px;
+    color: #2C2B31;
+    font-size: 15.29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product-selection {
+    margin-top: 20px;
+}
+
+.select-title {
+    color: #2C2B31;
+    text-align: center;
+    font-family: Gotham Pro;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.select-field {
+    margin-top: 4px;
+    width: 170px;
+    padding: 14px 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+.choice-value {
+    color: #2C2B31;
+    text-align: center;
+    font-size: 21.69px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.buy-button {
+    display: block;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: #37D997;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 11px 0;
+}
